@@ -12,9 +12,9 @@ public class App {
        pollObj(worker);
        pollObj(drone);
 
-        //-- Das sollte eigentlich nicht gehen!--//
-        HoneyBee bee = new HoneyBee();
-        pollObj(bee);
+        //-- Das geht nicht - Abstraktion!--//
+        // HoneyBee bee = new HoneyBee();
+        // pollObj(bee);
 
     }
 

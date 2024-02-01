@@ -6,6 +6,12 @@ public class Queen extends HoneyBee{
         return "I'm a Queen, any questions?";
     }
 
+    @Override
+    public String fly()
+    {
+        return "I can fly at 10mph!";
+    }
+
 
 
 }
